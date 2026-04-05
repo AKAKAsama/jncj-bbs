@@ -1,0 +1,1928 @@
+# Copyright (C) 2026 WP Plover
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plover 1.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/plover\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-22T15:14:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: plover\n"
+
+#. Theme Name of the theme
+#: style.css
+#: src/Services/ThemeServiceProvider.php:26
+msgid "Plover"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://wpplover.com/themes/plover/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Plover is a multipurpose Full Site Editing theme. Plover theme utilizes the WordPress block editor and the extensions provided by the Plover Kit to create unique and eye-catching web design. Dark mode and mobile optimization for better visitor retention. It’s perfect for agencies, companies, and bloggers to create an impact online website, whether through news, reviews, advertisements banners with AdSense, or a corporate magazine. Startups or marketing campaigns can also easily create landing pages through the block editor, making Plover the fastest and most adaptable theme for any creative endeavor."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "WP Plover"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://wpplover.com"
+msgstr ""
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "Page Not Found"
+msgstr ""
+
+#: patterns/404.php:15
+msgid "Page Not Found"
+msgstr ""
+
+#: patterns/404.php:21
+msgid "The page you are looking for does not exist, or it has been moved. Please try searching using the form below."
+msgstr ""
+
+#: patterns/404.php:25
+#: patterns/hidden-search.php:9
+#: patterns/hidden-sidebar.php:19
+msgid "Search"
+msgstr ""
+
+#: patterns/404.php:25
+#: patterns/footer-dark.php:32
+#: patterns/footer-light.php:31
+#: patterns/hidden-search.php:9
+#: patterns/hidden-sidebar.php:15
+msgid "Search this site"
+msgstr ""
+
+#: patterns/big-hero-header-dark.php
+msgctxt "Pattern title"
+msgid "Big Hero, dark style"
+msgstr ""
+
+#: patterns/big-hero-header-dark.php:19
+#: patterns/big-hero-header.php:19
+msgid "Create Beautiful and Awesome website Today"
+msgstr ""
+
+#: patterns/big-hero-header-dark.php:27
+#: patterns/big-hero-header.php:26
+msgid "Get Started Today"
+msgstr ""
+
+#: patterns/big-hero-header.php
+msgctxt "Pattern title"
+msgid "Big Hero"
+msgstr ""
+
+#: patterns/callout-danger.php
+msgctxt "Pattern title"
+msgid "Danger Callout"
+msgstr ""
+
+#: patterns/callout-danger.php:15
+msgid "An example danger callout with an icon."
+msgstr ""
+
+#: patterns/callout-info.php
+msgctxt "Pattern title"
+msgid "Info Callout"
+msgstr ""
+
+#: patterns/callout-info.php:14
+msgid "An example info callout with an icon."
+msgstr ""
+
+#: patterns/callout-plain.php
+msgctxt "Pattern title"
+msgid "Plain Callout"
+msgstr ""
+
+#: patterns/callout-plain.php:14
+msgid "An example plain callout with an icon."
+msgstr ""
+
+#: patterns/callout-success.php
+msgctxt "Pattern title"
+msgid "Success Callout"
+msgstr ""
+
+#: patterns/callout-success.php:14
+msgid "An example success callout with an icon."
+msgstr ""
+
+#: patterns/callout-warning.php
+msgctxt "Pattern title"
+msgid "Warning Callout"
+msgstr ""
+
+#: patterns/callout-warning.php:15
+msgid "An example warning callout with an icon."
+msgstr ""
+
+#: patterns/dark-mode-toggle.php
+msgctxt "Pattern title"
+msgid "Dark Mode Toggle"
+msgstr ""
+
+#: patterns/dark-testimonials-4-col.php
+msgctxt "Pattern title"
+msgid "Dark Testimonials, 4 columns"
+msgstr ""
+
+#: patterns/dark-testimonials-4-col.php:16
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/dark-testimonials-4-col.php:22
+msgid "What out customers says"
+msgstr ""
+
+#: patterns/dark-testimonials-4-col.php:28
+#: patterns/faq.php:29
+#: patterns/featured-projects.php:29
+#: patterns/left-media-and-text.php:43
+msgctxt "Dummy text"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: patterns/dark-testimonials-4-col.php:46
+#: patterns/dark-testimonials-4-col.php:68
+#: patterns/dark-testimonials-4-col.php:90
+msgctxt "Dummy text"
+msgid "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+msgstr ""
+
+#: patterns/dark-testimonials-4-col.php:52
+msgctxt "Dummy customer name"
+msgid "Harry Read"
+msgstr ""
+
+#: patterns/dark-testimonials-4-col.php:74
+msgctxt "Dummy customer name"
+msgid "Lois Pope"
+msgstr ""
+
+#: patterns/dark-testimonials-4-col.php:96
+msgctxt "Dummy customer name"
+msgid "Harper Conner"
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern title"
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: patterns/faq.php:16
+msgid "faq"
+msgstr ""
+
+#: patterns/faq.php:22
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: patterns/faq.php:40
+#: patterns/faq.php:50
+#: patterns/faq.php:60
+#: patterns/faq.php:73
+#: patterns/faq.php:83
+#: patterns/faq.php:93
+msgctxt "Dummy faq summary"
+msgid "Lorem ipsum dolor sit amet consect?"
+msgstr ""
+
+#: patterns/faq.php:42
+#: patterns/faq.php:52
+#: patterns/faq.php:62
+#: patterns/faq.php:75
+#: patterns/faq.php:85
+#: patterns/faq.php:95
+msgctxt "Dummy faq details"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+msgstr ""
+
+#: patterns/featured-projects.php
+msgctxt "Pattern title"
+msgid "Featured Projects, 3 col"
+msgstr ""
+
+#: patterns/featured-projects.php:16
+msgid "What we do"
+msgstr ""
+
+#: patterns/featured-projects.php:22
+msgid "Featured Projects"
+msgstr ""
+
+#: patterns/featured-projects.php:46
+msgid "Website Design"
+msgstr ""
+
+#: patterns/featured-projects.php:52
+#: patterns/featured-projects.php:74
+#: patterns/featured-projects.php:96
+msgctxt "Dummy text"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+msgstr ""
+
+#: patterns/featured-projects.php:68
+msgid "WordPress Themes"
+msgstr ""
+
+#: patterns/featured-projects.php:90
+msgid "WordPress Plugins"
+msgstr ""
+
+#: patterns/features-with-icon-4-col.php
+msgctxt "Pattern title"
+msgid "Features with icon, 4 col"
+msgstr ""
+
+#: patterns/features-with-icon-4-col.php:24
+msgid "Business"
+msgstr ""
+
+#: patterns/features-with-icon-4-col.php:30
+#: patterns/features-with-icon-4-col.php:53
+#: patterns/features-with-icon-4-col.php:76
+#: patterns/features-with-icon-4-col.php:100
+msgctxt "Dummy text"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing."
+msgstr ""
+
+#: patterns/features-with-icon-4-col.php:47
+msgid "Storefront"
+msgstr ""
+
+#: patterns/features-with-icon-4-col.php:70
+msgid "Blogging"
+msgstr ""
+
+#: patterns/features-with-icon-4-col.php:94
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/footer-dark.php
+msgctxt "Pattern title"
+msgid "Dark Footer, 4 columns"
+msgstr ""
+
+#: patterns/footer-dark.php:59
+#: patterns/footer-light.php:58
+msgid "About"
+msgstr ""
+
+#: patterns/footer-dark.php:66
+#: patterns/footer-light.php:65
+msgid "Team"
+msgstr ""
+
+#: patterns/footer-dark.php:68
+#: patterns/footer-light.php:67
+msgid "History"
+msgstr ""
+
+#: patterns/footer-dark.php:70
+#: patterns/footer-light.php:69
+msgid "Careers"
+msgstr ""
+
+#: patterns/footer-dark.php:80
+#: patterns/footer-light.php:79
+msgid "Privacy"
+msgstr ""
+
+#: patterns/footer-dark.php:87
+#: patterns/footer-light.php:86
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer-dark.php:89
+#: patterns/footer-light.php:88
+msgid "Terms and Conditions"
+msgstr ""
+
+#: patterns/footer-dark.php:91
+#: patterns/footer-light.php:90
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-dark.php:102
+#: patterns/footer-light.php:100
+msgid "Social"
+msgstr ""
+
+#: patterns/footer-dark.php:109
+#: patterns/footer-light.php:107
+msgid "Facebook"
+msgstr ""
+
+#: patterns/footer-dark.php:111
+#: patterns/footer-light.php:109
+msgid "Instagram"
+msgstr ""
+
+#: patterns/footer-dark.php:113
+#: patterns/footer-light.php:111
+msgid "Twitter/X"
+msgstr ""
+
+#. Translators: Theme Author link.
+#: patterns/footer-dark.php:128
+#: patterns/footer-light.php:126
+msgid "https://wpplover.com/"
+msgstr ""
+
+#. Translators: Designed by WP Plover
+#: patterns/footer-dark.php:131
+#: patterns/footer-light.php:129
+#, php-format
+msgid "Designed by %1$s"
+msgstr ""
+
+#. Translators: To Top link.
+#: patterns/footer-dark.php:142
+#: patterns/footer-light.php:140
+msgid "Top ↑"
+msgstr ""
+
+#: patterns/footer-light.php
+msgctxt "Pattern title"
+msgid "Light Footer, 4 columns"
+msgstr ""
+
+#: patterns/header-dark.php
+msgctxt "Pattern title"
+msgid "Dark Header"
+msgstr ""
+
+#: patterns/header-dark.php:36
+#: patterns/header-light.php:36
+#: patterns/header-transparent.php:36
+msgid "Log In"
+msgstr ""
+
+#: patterns/header-dark.php:42
+#: patterns/header-light.php:42
+#: patterns/header-transparent.php:42
+msgid "Sign Up"
+msgstr ""
+
+#: patterns/header-light.php
+msgctxt "Pattern title"
+msgid "Light Header"
+msgstr ""
+
+#: patterns/header-transparent.php
+msgctxt "Pattern title"
+msgid "Transparent Header"
+msgstr ""
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr ""
+
+#: patterns/hidden-inherit-posts-grid-3-col.php
+msgctxt "Pattern title"
+msgid "Inherit grid of posts, 3 columns"
+msgstr ""
+
+#: patterns/hidden-inherit-posts-grid-3-col.php:14
+#: patterns/latest-3-posts.php:24
+#: patterns/posts-grid-2-col.php:16
+#: patterns/posts-grid-3-col.php:15
+#: patterns/posts-list-left-image.php:15
+#: patterns/posts-list.php:14
+msgid "No posts were found."
+msgstr ""
+
+#: patterns/hidden-post-meta-simpler.php
+msgctxt "Pattern title"
+msgid "Post meta simpler"
+msgstr ""
+
+#: patterns/hidden-post-meta.php
+msgctxt "Pattern title"
+msgid "Post meta"
+msgstr ""
+
+#: patterns/hidden-post-navigation.php
+msgctxt "Pattern title"
+msgid "Post navigation"
+msgstr ""
+
+#: patterns/hidden-search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:19
+msgid "Search..."
+msgstr ""
+
+#: patterns/hidden-sidebar.php:28
+msgid "Popular Categories"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:41
+#: patterns/latest-3-posts.php:14
+msgid "Latest Posts"
+msgstr ""
+
+#: patterns/latest-3-posts.php
+msgctxt "Pattern title"
+msgid "Latest 3 posts"
+msgstr ""
+
+#: patterns/left-media-and-text.php
+msgctxt "Pattern title"
+msgid "Left media and text"
+msgstr ""
+
+#: patterns/left-media-and-text.php:30
+msgid "Service"
+msgstr ""
+
+#: patterns/left-media-and-text.php:36
+msgid "We solve web design problems efficiently"
+msgstr ""
+
+#: patterns/left-media-and-text.php:50
+#: patterns/right-media-and-text.php:61
+msgid "Get Started"
+msgstr ""
+
+#: patterns/page-404.php
+msgctxt "Pattern title"
+msgid "Sample 404 template."
+msgstr ""
+
+#: patterns/page-archive.php
+msgctxt "Pattern title"
+msgid "Sample archive template."
+msgstr ""
+
+#: patterns/page-home.php
+msgctxt "Pattern title"
+msgid "Sample home page."
+msgstr ""
+
+#: patterns/page-no-header.php
+msgctxt "Pattern title"
+msgid "Sample no hader page template."
+msgstr ""
+
+#: patterns/page-no-title.php
+msgctxt "Pattern title"
+msgid "Sample no title page template."
+msgstr ""
+
+#: patterns/page-search.php
+msgctxt "Pattern title"
+msgid "Sample search template."
+msgstr ""
+
+#: patterns/page-with-left-sidebar.php
+msgctxt "Pattern title"
+msgid "Sample page with left sidebar template."
+msgstr ""
+
+#: patterns/page-with-right-sidebar.php
+msgctxt "Pattern title"
+msgid "Sample page with right sidebar template."
+msgstr ""
+
+#: patterns/post-card-bordered.php
+msgctxt "Pattern title"
+msgid "Bordered single post card"
+msgstr ""
+
+#: patterns/post-card-plain-left-image.php
+msgctxt "Pattern title"
+msgid "Plain single post card, left image"
+msgstr ""
+
+#: patterns/post-card-plain.php
+msgctxt "Pattern title"
+msgid "Plain single post card"
+msgstr ""
+
+#: patterns/post-card-with-background.php
+msgctxt "Pattern title"
+msgid "Single post card with border, shadow and background"
+msgstr ""
+
+#: patterns/post-card-with-middle-image.php
+msgctxt "Pattern title"
+msgid "Post card with middle image"
+msgstr ""
+
+#: patterns/post-cover-with-primary-gradient-category.php
+msgctxt "Pattern title"
+msgid "Single Post cover with primary gradient category"
+msgstr ""
+
+#: patterns/posts-grid-2-col.php
+msgctxt "Pattern title"
+msgid "Grid of posts, 2 columns"
+msgstr ""
+
+#: patterns/posts-grid-3-col.php
+msgctxt "Pattern title"
+msgid "Grid of posts, 3 columns"
+msgstr ""
+
+#: patterns/posts-list-left-image.php
+msgctxt "Pattern title"
+msgid "List of posts, left image"
+msgstr ""
+
+#: patterns/posts-list.php
+msgctxt "Pattern title"
+msgid "List of posts, 1 columns"
+msgstr ""
+
+#: patterns/posts-magazine-layout-01.php
+msgctxt "Pattern title"
+msgid "Posts magazine layout 01"
+msgstr ""
+
+#: patterns/posts-magazine-layout-02.php
+msgctxt "Pattern title"
+msgid "Posts magazine layout 02"
+msgstr ""
+
+#: patterns/posts-magazine-layout-03.php
+msgctxt "Pattern title"
+msgid "Posts magazine layout 03"
+msgstr ""
+
+#: patterns/posts-magazine-layout-04.php
+msgctxt "Pattern title"
+msgid "Posts magazine layout 04"
+msgstr ""
+
+#: patterns/posts-magazine-layout-05.php
+msgctxt "Pattern title"
+msgid "Posts magazine layout 05"
+msgstr ""
+
+#: patterns/posts-magazine-layout-06.php
+msgctxt "Pattern title"
+msgid "Posts magazine layout 06"
+msgstr ""
+
+#: patterns/right-media-and-text.php
+msgctxt "Pattern title"
+msgid "Right media and text"
+msgstr ""
+
+#: patterns/right-media-and-text.php:30
+msgid "exclusive"
+msgstr ""
+
+#: patterns/right-media-and-text.php:36
+msgid "What makes us sparkle"
+msgstr ""
+
+#: patterns/right-media-and-text.php:45
+msgid "Pixel-perfect design pattern library"
+msgstr ""
+
+#: patterns/right-media-and-text.php:49
+msgid "Flexible page builder"
+msgstr ""
+
+#: patterns/right-media-and-text.php:53
+msgid "All-in-one extensions"
+msgstr ""
+
+#: patterns/single-with-left-sidebar.php
+msgctxt "Pattern title"
+msgid "Sample single post with left sidebar template."
+msgstr ""
+
+#: patterns/single-with-right-sidebar.php
+msgctxt "Pattern title"
+msgid "Sample single post with right sidebar template."
+msgstr ""
+
+#: src/Extensions/DarkMode.php:56
+#: src/Services/DashboardServiceProvider.php:270
+msgid "Dark Mode"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:57
+msgid "Adds dark mode support to the theme."
+msgstr ""
+
+#: src/Extensions/DarkMode.php:62
+msgid "Default color mode"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:67
+msgid "System"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:68
+#: src/Services/ThemeServiceProvider.php:91
+msgid "Dark"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:69
+#: src/Services/ThemeServiceProvider.php:95
+msgid "Light"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:74
+msgid "Cookie period"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:75
+msgid "The expiration date for visitors to switch color modes, default is session which means expires when browser is closed."
+msgstr ""
+
+#: src/Extensions/DarkMode.php:80
+msgid "Session"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:81
+msgid "1 Day"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:82
+msgid "7 Day"
+msgstr ""
+
+#: src/Extensions/DarkMode.php:83
+msgid "30 Days"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:65
+msgid "You need a higher level of permission."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:66
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:77
+msgid "Plover Kit"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:151
+msgid "Welcome"
+msgstr ""
+
+#. Translators: %s Name of current theme name
+#: src/Services/DashboardServiceProvider.php:156
+#, php-format
+msgid "Explore the full potential of WordPress with %s and Plover Kit"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:162
+#: src/Services/DashboardServiceProvider.php:400
+msgid "Plover Kit has pluggable modules that enhance the Gutenberg core blocks and provide extended features. It also has a weekly growing pattern library to make your website design fly."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:169
+msgid "Learn More"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:173
+msgid "Install & Activate"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:178
+msgid "Dismiss"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:194
+#: src/Services/DashboardServiceProvider.php:195
+msgid "Tutorials"
+msgstr ""
+
+#. Translators: %s is current theme name
+#: src/Services/DashboardServiceProvider.php:204
+#: src/Services/DashboardServiceProvider.php:208
+#, php-format
+msgctxt "Current theme name"
+msgid "%s Settings"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:227
+msgid "Edit Home Page"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:232
+msgid "Edit Menu"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:237
+msgid "Site Logo"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:242
+msgid "Edit Styles"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:247
+msgid "Edit Site Header"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:252
+msgid "Edit Footer"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:257
+msgid "Change Site Title"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:262
+msgid "Add New Page"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:271
+msgid "Theme dark mode global settings."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:276
+msgid "Pattern library"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:277
+msgid "Add beautiful, ready-to-go layouts to your site with one click."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:282
+msgid "Advanced Layout"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:283
+msgid "Add responsive flexbox, text alignment, display, sizing, and positioning controls to core blocks. Create flexible, responsive layouts with ease."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:288
+msgid "Table of Contents"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:289
+msgid "Introduce a Table of Contents block to your posts and pages."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:294
+msgid "Code Snippets"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:295
+msgid "Insert code snippets to site header or footer section like Google Analytics code, AdSense Code, Facebook Pixels code, and more."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:300
+msgid "Entrance Animation"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:301
+msgid "Entrance animation adding dynamic movement to elements as they appear on screen."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:306
+msgid "Hover Animation"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:307
+msgid "The Hover Animation allow you to add mouse hover animation effect for elements on your WordPress website."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:312
+msgid "Shape Divider"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:313
+msgid "Shape divider is used to create visual separation between different sections of content."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:318
+msgid "Particles Effect"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:319
+msgid "Add cool particle effects to your designs!"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:324
+msgid "Breadcrumb"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:325
+msgid "Let’s you easily display breadcrumb navigation on your WordPress site, easy customization."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:330
+msgid "Reading Time Block"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:331
+msgid "Let’s you easily add an estimated reading time to your WordPress posts."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:336
+msgid "Magazine Layout"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:337
+msgid "Elevate your WordPress site with the Magazine Layout dynamic content presentation."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:342
+msgid "Typing Animation"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:343
+msgid "Add dynamic typing effects to your text."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:348
+msgid "Rough Notation"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:349
+msgid "Create and animate hand-draw style notations on a page."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:354
+msgid "Preloader"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:355
+msgid "Animated elements that appear while website content loads make waiting more enjoyable."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:360
+msgid "Icon library"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:361
+msgid "Icon library allows you to manage icon libraries and upload your custom svg icons."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:366
+msgid "Icon Block"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:367
+msgid "Add icons to your design! 2000+ free icons available!"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:372
+msgid "Code highlight"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:373
+msgid "Add out-of-the-box code highlighting features for core/code block."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:378
+msgid "Block event handler"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:379
+msgid "Adding event handler to blocks to execute custom JavaScript snippets."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:384
+msgid "Block Sticky"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:385
+msgid "Make your content in the page visible at all times, making it permanently visible while scrolling."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:390
+msgid "Block shadow"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:391
+msgid "Extra text-shadow, drop-shadow, and box-shadow support for core blocks."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:399
+msgid "Install Plover Kit"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:405
+#: src/Services/DashboardServiceProvider.php:593
+msgid "Install & Active"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:411
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:412
+msgid "Take your site building to the next level with Premium. Unlock advanced modules and professional features that give you complete creative freedom — all while keeping your site fast with our modular design."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:418
+msgid "Upgrade"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:424
+msgid "Free vs Premium"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:430
+msgid "Beginner's Tutorials"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:431
+msgid "New to Full Site Editing and the Plover theme? No worries — we've prepared a series of tutorials to help you get started quickly."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:436
+msgid "View Tutorials"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:442
+#: src/Services/DashboardServiceProvider.php:481
+msgid "Support Forum"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:443
+msgid "If you have any question about using this theme, feel free to create a new topic in the support forum."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:448
+msgid "Create a Topic"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:455
+#: src/Services/DashboardServiceProvider.php:702
+msgid "Get Expert WordPress Help"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:456
+#: src/Services/DashboardServiceProvider.php:703
+msgid "Facing a bug or need a custom feature? Our WordPress experts are available to help with fixes, custom development, and optimization."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:461
+#: src/Services/DashboardServiceProvider.php:705
+msgid "Get a Quote"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:471
+msgid "Homepage"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:476
+#: src/Services/DashboardServiceProvider.php:588
+msgid "Documentation"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:486
+msgid "Rate Us 5 Stars"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:499
+msgid "Useful Links"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:541
+msgid "Customize"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:542
+msgid "Go To Site Editor"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:565
+msgid "Featured Plover Kit Modules"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:606
+msgid "More Modules"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:629
+msgid "Site Editor Tutorials"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:632
+msgid "Welcome to Plover Theme!"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:633
+msgid "Welcome to the Plover Theme! This article provides a comprehensive overview of its powerful features, giving you everything you need to start building your dream WordPress site."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:637
+msgid "What is Full Site Editing (FSE)?"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:638
+msgid "This article introduces Full Site Editing (FSE) in plain language, compares it to classic theming, and explains core concepts like blocks, templates, and global styles to help you start building with the Plover Theme."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:642
+msgid "Site Editor Overview"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:643
+msgid "Welcome to the Site Editor—the heart of Full Site Editing in WordPress. This article walks you through each part of the interface, explains what everything does, and helps you feel confident designing your entire site with Plover Theme."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:647
+msgid "Navigation sidebar"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:648
+msgid "This article introduces the Navigation Sidebar, your command center in the WordPress Site Editor. Learn to use it to preview content, manage styles, templates, and patterns, and create new templates for your Plover site."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:652
+msgid "Site Editor Area"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:653
+msgid "This article walks you through the WordPress Site Editor interface. Master the Styles sidebar — where you can customize global styles, individual blocks, and even add custom CSS for your Plover site."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:659
+msgid "Dark Mode Tutorials"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:662
+msgid "Dark Mode Quick Start"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:663
+msgid "This quick start guide shows you how to enable dark mode in Plover Theme. You'll learn to add the toggle button using a preset pattern and preview dark mode directly in the Site Editor."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:667
+msgid "Block Level Dark Mode"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:668
+msgid "This article explains block-level dark mode in Plover Theme. Learn how to force specific container blocks—like Group, Row, and Columns — to always stay in dark or light mode, independent of your global settings."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:672
+msgid "Fine-tuning Dark Mode Colors"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:673
+msgid "Discover how to fine-tune dark mode colors in Plover Theme. Learn the exact color inversion rules for light and dark modes, and explore how to manage and customize the color palette directly in the Site Editor."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:677
+msgid "Show or hide blocks based on color mode"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:678
+msgid "Learn to control block visibility based on your site's color mode in Plover Theme. This feature lets you show or hide specific blocks in light or dark mode—perfect for using different images or content optimized for each theme."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:682
+msgid "Global dark mode settings"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:683
+msgid "Ready to take control of dark mode across your entire site? This guide covers the global dark mode settings available through the Plover Kit plugin. You'll learn how to set the default color mode for new visitors and configure the cookie period to remember their preferences."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:687
+msgid "Advanced: Create your own toggle button"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:688
+msgid "Ready to build a custom dark mode toggle? This guide walks you through creating your own button using the Block Event Handler and visibility settings, with the exact code you'll need to make it work."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:694
+#: src/Services/DashboardServiceProvider.php:697
+msgid "Resources and Support"
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:698
+msgid "Looking for help with Plover Theme? This resource guide covers frequently asked questions about general setup, dark mode, customization, and the Plover Kit plugin — plus how to reach official support through forums or email."
+msgstr ""
+
+#: src/Services/DashboardServiceProvider.php:732
+msgid "View Tutorial"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:27
+msgid "All patterns provided by plover theme."
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:31
+msgid "Pages"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:32
+msgid "Create an example page containing multiple patterns grouped together."
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:36
+msgid "Post Template"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:37
+msgid "Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more."
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:47
+msgid "Dashed"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:51
+msgid "Waves"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:55
+msgid "Ghost"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:61
+msgid "None"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:65
+msgid "Checklist"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:69
+msgid "Check Circle"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:73
+msgid "Check Solid"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:77
+msgid "Check Ghost"
+msgstr ""
+
+#: src/Services/ThemeServiceProvider.php:83
+msgid "Bordered"
+msgstr ""
+
+#: static/scripts/dark-mode-extension/index.js:39
+msgid "Plover: Dark Mode"
+msgstr ""
+
+#: static/scripts/dark-mode-extension/index.js:42
+msgid "Color mode visible"
+msgstr ""
+
+#. translators: %s is the name of color mode, e.g., "dark/light"
+#: static/scripts/dark-mode-extension/index.js:48
+#, js-format
+msgid "This block will be hide when color schema is %s."
+msgstr ""
+
+#: static/scripts/dark-mode-extension/index.js:49
+msgid "dark"
+msgstr ""
+
+#: static/scripts/dark-mode-extension/index.js:49
+msgid "light"
+msgstr ""
+
+#: static/scripts/dark-mode-extension/index.js:66
+msgid "Inherit"
+msgstr ""
+
+#: static/scripts/dark-mode-extension/index.js:67
+msgid "Hide on dark"
+msgstr ""
+
+#: static/scripts/dark-mode-extension/index.js:68
+msgid "Hide on light"
+msgstr ""
+
+#: theme.json
+msgctxt "Style variation name"
+msgid "Plover"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and white"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Gradient name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Gradient name"
+msgid "Primary Invert"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Gradient name"
+msgid "Background/Transparent"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Gradient name"
+msgid "Transparent/Background"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Gradient name"
+msgid "Checkerboard"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Gradient name"
+msgid "Grid"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Primary / Active"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 950"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 800"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 600"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 400"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 200"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 0"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Transparent"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Current"
+msgstr ""
+
+#: theme.json
+#: styles/amber.json
+#: styles/cyan.json
+#: styles/emerald.json
+#: styles/fuchsia.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/indigo.json
+#: styles/lime.json
+#: styles/neutral.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: styles/red.json
+#: styles/rose.json
+#: styles/sky.json
+#: styles/teal.json
+#: styles/violet.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Inherit"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Cardo"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fira Code"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Sans-serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Inherit"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "3X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "4X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "5X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "6X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "7X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "8X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "9X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank Canvas"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Right Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Left Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single with Right Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single with Left Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Default Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Light Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Dark Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Transparent Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Default Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Light Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Dark Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Post Meta"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Post Meta Simpler"
+msgstr ""
+
+#: styles/amber.json
+msgctxt "Style variation name"
+msgid "Amber"
+msgstr ""
+
+#: styles/cyan.json
+msgctxt "Style variation name"
+msgid "Cyan"
+msgstr ""
+
+#: styles/emerald.json
+msgctxt "Style variation name"
+msgid "Emerald"
+msgstr ""
+
+#: styles/fuchsia.json
+msgctxt "Style variation name"
+msgid "Fuchsia"
+msgstr ""
+
+#: styles/gray.json
+msgctxt "Style variation name"
+msgid "Gray"
+msgstr ""
+
+#: styles/green.json
+msgctxt "Style variation name"
+msgid "Green"
+msgstr ""
+
+#: styles/indigo.json
+msgctxt "Style variation name"
+msgid "Indigo"
+msgstr ""
+
+#: styles/lime.json
+msgctxt "Style variation name"
+msgid "Lime"
+msgstr ""
+
+#: styles/neutral.json
+msgctxt "Style variation name"
+msgid "Neutral"
+msgstr ""
+
+#: styles/orange.json
+msgctxt "Style variation name"
+msgid "Orange"
+msgstr ""
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr ""
+
+#: styles/purple.json
+msgctxt "Style variation name"
+msgid "Purple"
+msgstr ""
+
+#: styles/red.json
+msgctxt "Style variation name"
+msgid "Red"
+msgstr ""
+
+#: styles/rose.json
+msgctxt "Style variation name"
+msgid "Rose"
+msgstr ""
+
+#: styles/sky.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr ""
+
+#: styles/teal.json
+msgctxt "Style variation name"
+msgid "Teal"
+msgstr ""
+
+#: styles/violet.json
+msgctxt "Style variation name"
+msgid "Violet"
+msgstr ""
+
+#: styles/yellow.json
+msgctxt "Style variation name"
+msgid "Yellow"
+msgstr ""

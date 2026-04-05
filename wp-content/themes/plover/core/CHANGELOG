@@ -1,0 +1,171 @@
+= 1.3.2 =
+
+* Ref: better sticky when user logged in
+
+= 1.3.1 =
+
+* Fix: Multi same navigation block causing infinite loop error
+* Ref: Add advanced layout default blocks hook
+
+= 1.3.0 =
+
+* Add: Responsive flex layout controls
+* Add: Responsive text-align controls
+* Ref: Update dashboard modules group
+* Ref: Track upsell link
+* Ref: Merge the Measure, Position, and Display modules into the Advanced Layout module
+
+= 1.2.10 =
+
+* Add: Accessibility controls to icon button
+* Ref: Update text shadow controls
+
+= 1.2.9 =
+
+* Add: Add style and svg utils
+* Add: Inline Icon promotion
+* Add: Z-Index control for particles block
+* Fix: .icon-library-not-available style error
+* Fix: Rough Notation may cause editor errors in certain situations
+* Ref: Move icons store to plover/data
+
+= 1.2.8 =
+
+* Ref: Update icon library
+* Ref: Implement additional core block supports from the server side
+* Add: Spacing & Border support for core/query-pagination block
+
+= 1.2.7 =
+
+* Add: Link style for navigation block
+* Add: New magazine layout module
+
+= 1.2.6 =
+
+* Fix: Colors component variant missing error
+* Ref: Update color popover component
+
+= 1.2.5 =
+
+* Add: Colors component
+* Add: Image select component
+* Add: Icon select component
+
+= 1.2.4 =
+
+* Fix: Side effects of plover-indicator on editor layout
+* Fix: Text/Drop-Box/Box shadow presets don't work in site editor
+* Fix: Drop shadow style preview error in site editor
+
+= 1.2.3 =
+
+* Add: New Rough Notation module
+* Refactor: Update icon-library-not-available css class
+* Fix: Core url format error under Windows system
+
+= 1.2.2 =
+
+* Add: Script translation option
+
+= 1.2.1 =
+
+* Fix: Image and button shadow errors
+
+= 1.2.0 =
+
+* Add: Entrance animation module
+* Add: Hover animation module
+* Add: Extend core/read-more block style
+* Ref: Update box-shadow effect on button and image block
+* Ref: Update icon block editor icon
+
+= 1.1.0 =
+
+* Add: New Shape Divider module
+* Add: New Particles Effect module
+* Add: New CSS position module
+* Ref: Update display module
+* Fix: Responsive values not working on frontend
+
+= 1.0.16 =
+
+* Fix: DIRECTORY_SEPARATOR will break in some case
+
+= 1.0.15 =
+
+* Ref: Remove WP_Filesystem dependencies
+
+= 1.0.14 =
+
+* Ref: Filesystem list_files return type
+
+= 1.0.13 =
+
+* Ref: Update Tips components design
+* Ref: Update upsell link
+* Fix: Block style asset version error
+* Fix: Color popover components preset colors error
+
+= 1.0.12 =
+
+* Add: Support callbacks when enqueue raw assets
+
+= 1.0.11 =
+
+* Fix: Destroy code editor after component destruction
+
+= 1.0.10 =
+
+* Add: plover-kit/toc block gap support
+* Add: plover.blocksWithBlockGap frontend hook
+* Add: DocLink component in @plover/components package
+* Ref: Update dashboard text
+
+= 1.0.9 =
+
+* Fix: Ignore synced block duplicate ploverBlockID check
+
+= 1.0.8 =
+
+* Fix: Duplicate ploverBlockID check
+* Fix: https://wordpress.org/support/topic/missing-plus-button-for-new-posts-when-the-plugin-is-active/
+
+= 1.0.7 =
+
+* Fix: Type error
+
+= 1.0.6 =
+
+* Ref: Update bootstrap constructor to accept app url
+
+= 1.0.5 =
+
+* Fix: CodeMirror component error
+* Fix: Missing CodeMirror dependence
+* Ref: Avoid enqueuing core styles on frontend
+* Ref: Classic theme optimize
+
+= 1.0.4 =
+
+* Add: Plugin toolkit
+* Add: Border & shadow options for core/details block
+* Add: Add border styles for core/paragraph block
+* Ref: Update primary color
+* Fix: Button element typography error
+* Fix: Register ploverBlockID attribute for all blocks on the server side
+
+= 1.0.3 =
+
+* Fix: Icon editor preview error
+
+= 1.0.2 =
+
+* Fix: JavaScript global vars error
+* Add: Global block categories
+
+= 1.0.1 =
+
+* Ref: Guideline compatible
+
+= 1.0.0 =
+* Released: June 6, 2024

@@ -1,0 +1,222 @@
+<?php
+
+namespace Plover\Core\Services\Settings;
+
+use Plover\Core\Plover;
+
+/**
+ * @since 1.0.0
+ */
+class Modules {
+	/**
+	 * All registered modules.
+	 *
+	 * @var array
+	 */
+	protected $modules = [];
+
+	/**
+	 * All registered module groups.
+	 *
+	 * @var array
+	 */
+	protected $groups = [];
+
+	/**
+	 * @var Plover
+	 */
+	protected $core;
+
+	/**
+	 * @var Settings
+	 */
+	protected $settings;
+
+	/**
+	 * Create modules instance.
+	 *
+	 * @param Plover $core
+	 */
+	public function __construct( Plover $core, Settings $settings ) {
+		$this->core     = $core;
+		$this->settings = $settings;
+
+		$module_groups = apply_filters( 'plover_core_module_groups', array(
+			'default'        => array(
+				'label'       => __( 'Modules', 'plover' ),
+				'description' => __( 'Time-Saving libraries & standalone feature.', 'plover' ),
+			),
+			'theme'          => array(
+				'order'       => 5,
+				'label'       => __( 'Theme', 'plover' ),
+				'description' => __( 'Extensions provided by the active theme.', 'plover' ),
+			),
+			'blog-tools'     => array(
+				'label'       => __( 'Blog Tools', 'plover' ),
+				'description' => __( 'Build professional blogs effortlessly with features tailored for both beginners and experienced bloggers.', 'plover' ),
+			),
+			'motion-effects' => array(
+				'label'       => __( 'Motion Effects', 'plover' ),
+				'description' => __( 'Bring your website to life with dynamic motion effects!', 'plover' ),
+			),
+			'blocks'         => array(
+				'label'       => __( 'Blocks', 'plover' ),
+				'description' => __( 'Blocks or block variations provided by this plugin.', 'plover' ),
+			),
+			'extensions'     => array(
+				'label'       => __( 'Block Extensions', 'plover' ),
+				'description' => __( 'Take your WordPress editing experience to the next level!', 'plover' ),
+			)
+		) );
+
+		foreach ( $module_groups as $name => $module ) {
+			$this->register_group( $name, $module );
+		}
+
+		add_filter( 'plover_core_editor_data', [ $this, 'localize_modules_data' ] );
+		add_filter( 'plover_core_dashboard_data', [ $this, 'localize_modules_data' ] );
+	}
+
+	/**
+	 * Localize modules data
+	 *
+	 * @param $data
+	 *
+	 * @return mixed
+	 */
+	public function localize_modules_data( $data ) {
+		$data['modules']       = $this->modules;
+		$data['module_groups'] = $this->groups;
+
+		return $data;
+	}
+
+	/**
+	 * Register a module group.
+	 *
+	 * @param $slug
+	 * @param array $args
+	 *
+	 * @return void
+	 */
+	public function register_group( $slug, $args = array() ) {
+		static $order = 10;
+
+		$args = wp_parse_args( $args, array(
+			'label'       => '',
+			'description' => '',
+			'order'       => $order ++,
+		) );
+
+		if ( ! empty( $args['label'] ) ) {
+			$this->groups[ $slug ] = array(
+				'label'       => $args['label'],
+				'description' => $args['description'],
+				'order'       => absint( $args['order']),
+			);
+		}
+	}
+
+	/**
+	 * Register module.
+	 *
+	 * @param $id
+	 * @param $args
+	 *
+	 * @return void
+	 * @throws \Exception
+	 */
+	public function register( $id, $args = array() ) {
+		if ( isset( $this->modules[ $id ] ) ) {
+			return;
+		}
+
+		static $order = 0;
+
+		$args = wp_parse_args( $args, array(
+			'recent'      => false,
+			'premium'     => false,
+			'group'       => 'default',
+			'label'       => '',
+			'enabled'     => 'yes',
+			'excerpt'     => '',
+			'icon'        => '',
+			'description' => '',
+			'fields'      => array(),
+			'order'       => $order ++,
+		) );
+
+		$this->settings->add_group( $id, array(
+			'default' => $args['enabled'],
+		) );
+
+		$fields          = $args['fields'] ?? array();
+		$args['enabled'] = $this->settings->get( $id );
+		$args['fields']  = array();
+
+		$this->modules[ $id ] = $args;
+
+		foreach ( $fields as $field => $field_args ) {
+			$this->add_field( $id, $field, $field_args );
+		}
+	}
+
+	/**
+	 * Add a field to exists module.
+	 *
+	 * @param $module
+	 * @param $field
+	 * @param $args
+	 *
+	 * @return void
+	 */
+	public function add_field( $module, $field, $args = array() ) {
+		if ( ! isset( $this->modules[ $module ] ) ) {
+			return;
+		}
+
+		$field_args = wp_parse_args( $args, array(
+			'label'   => '',
+			'default' => '',
+			'control' => Control::T_TEXT,
+		) );
+
+		$this->settings->add_field( $module, $field, array(
+			'default'  => $field_args['default'],
+			'sanitize' => Control::sanitize(
+				$field_args['control'],
+				array_merge(
+					$field_args['control_args'] ?? array(),
+					array( 'default' => $field_args['default'] )
+				)
+			),
+		) );
+
+		$field_args['value'] = $this->settings->get( $module, $field );
+
+		$this->modules[ $module ]['fields'][ $field ] = $field_args;
+	}
+
+	/**
+	 * Get registered field args
+	 *
+	 * @param $module
+	 * @param $field
+	 *
+	 * @return mixed|null
+	 */
+	public function get_field( $module, $field ) {
+		return $this->modules[ $module ]['fields'][ $field ] ?? null;
+	}
+
+	/**
+	 * Unregister exists module.
+	 *
+	 * @param $slug
+	 *
+	 * @return void
+	 */
+	public function unregister( $slug ) {
+		unset( $this->modules[ $slug ] );
+	}
+}

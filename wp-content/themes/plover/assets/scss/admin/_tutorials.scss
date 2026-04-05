@@ -1,0 +1,75 @@
+@use "vars" as vars;
+
+.plover-dashboard-tutorial-list {
+  display: grid;
+  gap: vars.$spacing;
+  grid-template-columns: repeat(1, 1fr);
+
+  .plover-dashboard-tutorial-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid vars.$border-color;
+    border-radius: vars.$border-radius;
+    background-color: vars.$neutral-0;
+    overflow: hidden;
+
+    .plover-dashboard-module-header {
+      position: relative;
+
+      img {
+        display: block;
+        width: 100%;
+        margin: 0;
+      }
+
+      .plover-dashboard-module-title {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding: vars.$spacing;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h3 {
+          color: #ffffff;
+          font-size: 24px;
+          margin: 0;
+          line-height: 1.5;
+        }
+      }
+    }
+
+    .plover-dashboard-module-content {
+      padding: vars.$spacing;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+
+      > p {
+        margin-top: 0;
+        flex-grow: 1;
+      }
+
+      .plover-admin-button {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .plover-dashboard-tutorial-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .plover-dashboard-tutorial-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+

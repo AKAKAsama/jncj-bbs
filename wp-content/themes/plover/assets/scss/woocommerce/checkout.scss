@@ -1,0 +1,91 @@
+// Delivery options
+.has-dark-controls .edit-post-visual-editor .wc-block-checkout__shipping-method-option,
+.has-dark-controls .wc-block-checkout__shipping-method-option,
+.edit-post-visual-editor .wc-block-checkout__shipping-method-option,
+.wc-block-checkout__shipping-method-option {
+    color: var(--wp--preset--color--neutral-950);
+}
+
+.has-dark-controls .edit-post-visual-editor .wc-block-checkout__shipping-method-option.wc-block-checkout__shipping-method-option--selected,
+.has-dark-controls .wc-block-checkout__shipping-method-option.wc-block-checkout__shipping-method-option--selected,
+.edit-post-visual-editor .wc-block-checkout__shipping-method-option.wc-block-checkout__shipping-method-option--selected,
+.wc-block-checkout__shipping-method-option.wc-block-checkout__shipping-method-option--selected {
+    background: var(--wp--preset--color--neutral-0);
+    border-color: var(--wp--preset--color--neutral-800);
+}
+
+// form style
+.wp-block-woocommerce-checkout .has-dark-controls,
+.wp-block-woocommerce-checkout {
+
+    .wc-blocks-components-select .wc-blocks-components-select__container {
+        background: transparent;
+        color: inherit;
+    }
+    .wc-blocks-components-select .wc-blocks-components-select__expand {
+        fill: currentColor;
+    }
+
+    .wc-blocks-components-select .wc-blocks-components-select__label,
+    .wc-block-components-form .wc-block-components-text-input:not(.has-error) label,
+    .wc-block-components-text-input:not(.has-error) label {
+        color: inherit;
+        opacity: 0.85;
+    }
+
+    .wc-block-components-textarea,
+    .wc-block-checkout__add-note .wc-block-components-textarea,
+    .wc-blocks-components-select .wc-blocks-components-select__select,
+    .wc-block-components-form .wc-block-components-text-input input[type=email],
+    .wc-block-components-form .wc-block-components-text-input input[type=number],
+    .wc-block-components-form .wc-block-components-text-input input[type=password],
+    .wc-block-components-form .wc-block-components-text-input input[type=tel],
+    .wc-block-components-form .wc-block-components-text-input input[type=text],
+    .wc-block-components-form .wc-block-components-text-input input[type=url],
+    .wc-block-components-text-input input[type=email],
+    .wc-block-components-text-input input[type=number],
+    .wc-block-components-text-input input[type=password],
+    .wc-block-components-text-input input[type=tel],
+    .wc-block-components-text-input input[type=text],
+    .wc-block-components-text-input input[type=url] {
+        font: inherit;
+        color: inherit;
+        outline: none;
+        transition: var(--wp--custom--transition, inherit);
+        background-color: var(--wp--custom--elements--input--background, transparent);
+        box-shadow: var(--wp--custom--elements--input--box-shadow, none);
+        line-height: var(--wp--custom--elements--input--line-height, inherit);
+        border-width: var(--wp--custom--elements--input--border-width, var(--wp--custom--border--width, 1px));
+        border-color: var(--wp--custom--elements--input--border-color, var(--wp--custom--border--color, currentColor));
+        border-radius: var(--wp--custom--elements--input--border-radius, var(--wp--custom--border-radius--rounded, inherit));
+        border-style: var(--wp--custom--elements--input--border-style, var(--wp--custom--border--style, solid));
+
+        &:focus {
+            color: inherit;
+            background-color: var(--wp--custom--elements--input--focus--background, currentColor);
+            border-color: var(--wp--custom--elements--input--focus--border-color, currentColor);
+            box-shadow: var(--wp--custom--elements--input--focus--box-shadow, none);
+        }
+
+        &::placeholder {
+            color: var(--wp--custom--elements--placeholder--color, inherit);
+            opacity: var(--wp--custom--elements--placeholder--opacity, 0.5);
+        }
+    }
+
+    .wc-block-components-radio-control--highlight-checked:after {
+        border-color: var(--wp--preset--color--neutral-200);
+    }
+}
+
+// Steps
+.wp-block-woocommerce-checkout .has-dark-controls,
+.wp-block-woocommerce-checkout {
+
+    .wc-block-components-totals-wrapper,
+    .wp-block-woocommerce-checkout-order-summary-block,
+    .wp-block-woocommerce-checkout-order-summary-totals-block,
+    .wc-block-checkout__form--with-step-numbers .wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__container:after {
+        border-color: var(--wp--preset--color--neutral-400);
+    }
+}

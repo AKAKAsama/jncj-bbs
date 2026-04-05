@@ -1,0 +1,1515 @@
+# Translation of Themes - Plover in Chinese (China)
+# This file is distributed under the same license as the Themes - Plover package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-02-24 02:36:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Plover\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Plover is a multipurpose Full Site Editing theme. Plover theme utilizes the WordPress block editor and the extensions provided by the Plover Kit to create unique and eye-catching web design. Dark mode and mobile optimization for better visitor retention. It’s perfect for agencies, companies, and bloggers to create an impact online website, whether through news, reviews, advertisements banners with AdSense, or a corporate magazine. Startups or marketing campaigns can also easily create landing pages through the block editor, making Plover the fastest and most adaptable theme for any creative endeavor."
+msgstr "Plover 是一款多用途全站编辑主题。Plover 主题利用 WordPress 块编辑器和 Plover Kit 提供的扩展功能来创建独特而引人注目的网页设计。暗色模式和移动优化可更好地留住访客。无论您希望创建新闻、评论、AdSense 广告横幅还是企业杂志，它都是机构、公司和博主创建有影响力的在线网站的完美选择。初创公司或营销活动也可以通过区块编辑器轻松创建登陆页面，使 Plover 成为适用于任何创意工作的最快、最具适应性的主题。"
+
+#. Theme Name of the theme
+#: style.css core/src/Extensions/Icon.php:107
+#: src/Services/ThemeServiceProvider.php:26
+#, gp-priority: high
+msgid "Plover"
+msgstr "Plover"
+
+#: core/src/Services/Settings/Modules.php:68
+msgid "Take your WordPress editing experience to the next level!"
+msgstr "让你的 WordPress 编辑体验更上一层楼！"
+
+#: core/src/Services/Settings/Modules.php:60
+msgid "Bring your website to life with dynamic motion effects!"
+msgstr "通过动态特效，让您的网站栩栩如生！"
+
+#: core/src/Services/Settings/Modules.php:59
+msgid "Motion Effects"
+msgstr "动态特效"
+
+#: core/src/Extensions/HoverAnimation.php:22
+#: src/Services/DashboardServiceProvider.php:307
+msgid "The Hover Animation allow you to add mouse hover animation effect for elements on your WordPress website."
+msgstr "悬停动画允许您为 WordPress 网站上的元素添加鼠标悬停动画效果。"
+
+#: core/src/Extensions/HoverAnimation.php:21
+#: src/Services/DashboardServiceProvider.php:306
+msgid "Hover Animation"
+msgstr "悬停动画"
+
+#: core/src/Extensions/EntranceAnimation.php:23
+#: src/Services/DashboardServiceProvider.php:301
+msgid "Entrance animation adding dynamic movement to elements as they appear on screen."
+msgstr "入场动画为屏幕上出现的元素添加动态运动。"
+
+#: core/src/Extensions/EntranceAnimation.php:22
+#: src/Services/DashboardServiceProvider.php:300
+msgid "Entrance Animation"
+msgstr "入场动画"
+
+#: core/src/Extensions/ShapeDivider.php:187
+msgctxt "Shapes name"
+msgid "Triangle"
+msgstr "Triangle"
+
+#: core/src/Extensions/ShapeDivider.php:183
+msgctxt "Shapes name"
+msgid "Tilt"
+msgstr "Tilt"
+
+#: core/src/Extensions/ShapeDivider.php:179
+msgctxt "Shapes name"
+msgid "None"
+msgstr "无"
+
+#: core/src/Extensions/ShapeDivider.php:24
+#: src/Services/DashboardServiceProvider.php:313
+msgid "Shape divider is used to create visual separation between different sections of content."
+msgstr "形状分隔线用于在不同的内容部分之间创建视觉分隔。"
+
+#: core/src/Extensions/ShapeDivider.php:23
+#: src/Services/DashboardServiceProvider.php:312
+msgid "Shape Divider"
+msgstr "形状分隔符"
+
+#: core/src/Extensions/Particles.php:201
+msgid "Colorful Bubbles"
+msgstr "彩色气泡"
+
+#: core/src/Extensions/Particles.php:197
+msgid "NASA"
+msgstr "NASA"
+
+#: core/src/Extensions/Particles.php:193
+msgid "Snow"
+msgstr "下雪"
+
+#: core/src/Extensions/Particles.php:189
+msgid "Basic"
+msgstr "基本"
+
+#: core/src/Extensions/Particles.php:21
+#: src/Services/DashboardServiceProvider.php:319
+msgid "Add cool particle effects to your designs!"
+msgstr "为你的设计添加炫酷的粒子效果"
+
+#: core/src/Extensions/Particles.php:20
+#: src/Services/DashboardServiceProvider.php:318
+msgid "Particles Effect"
+msgstr "粒子效果"
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "Page Not Found"
+msgstr "找不到页面"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Post Meta Simpler"
+msgstr "Plover: 简易版帖子元信息"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Post Meta"
+msgstr "Plover: 帖子元信息"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Sidebar"
+msgstr "Plover: 侧边栏"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Dark Footer"
+msgstr "Plover: 暗色页脚"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Light Footer"
+msgstr "Plover: 亮色页脚"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Dark Header"
+msgstr "Plover: 暗色页头"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Light Header"
+msgstr "Plover: 亮色页头"
+
+#: src/Services/DashboardServiceProvider.php:499
+msgid "Useful Links"
+msgstr "有用的链接"
+
+#: patterns/hidden-inherit-posts-grid-3-col.php
+msgctxt "Pattern title"
+msgid "Inherit grid of posts, 3 columns"
+msgstr "帖子网格，3列，继承"
+
+#. Translators: %s is current theme name
+#: src/Services/DashboardServiceProvider.php:204
+#: src/Services/DashboardServiceProvider.php:208
+msgctxt "Current theme name"
+msgid "%s Settings"
+msgstr "%s 设置"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single with Left Sidebar"
+msgstr "有左侧边栏的文章"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single with Right Sidebar"
+msgstr "有右侧边栏的文章"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Left Sidebar"
+msgstr "有左侧边栏的页面"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Right Sidebar"
+msgstr "有右侧边栏的文章"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Header"
+msgstr "没有头部的页面"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank Canvas"
+msgstr "空白画布"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Title"
+msgstr "没有标题的页面"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "特大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr "2X 大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "3X Large"
+msgstr "3X 大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "4X Large"
+msgstr "4X 大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "5X Large"
+msgstr "5X 大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "6X Large"
+msgstr "6X 大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "7X Large"
+msgstr "7X 大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "8X Large"
+msgstr "8X 大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "9X Large"
+msgstr "9X 大号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Base"
+msgstr "基础"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "小号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr "特小号"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Inherit"
+msgstr "继承"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Sans-serif"
+msgstr "系统无衬线字体"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr "系统衬线字体"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X Large"
+msgstr "2X 大号"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Extra Large"
+msgstr "特大号"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr "大号"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr "中号"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr "小号"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Extra Small"
+msgstr "特小号"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X Small"
+msgstr "2X 小号"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and white"
+msgstr "黑白"
+
+#: styles/yellow.json
+msgctxt "Style variation name"
+msgid "Yellow"
+msgstr "黄色"
+
+#: styles/violet.json
+msgctxt "Style variation name"
+msgid "Violet"
+msgstr "紫罗兰"
+
+#: styles/teal.json
+msgctxt "Style variation name"
+msgid "Teal"
+msgstr "茶色"
+
+#: styles/sky.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr "蓝色"
+
+#: styles/rose.json
+msgctxt "Style variation name"
+msgid "Rose"
+msgstr "玫瑰色"
+
+#: styles/red.json
+msgctxt "Style variation name"
+msgid "Red"
+msgstr "红色"
+
+#: styles/purple.json
+msgctxt "Style variation name"
+msgid "Purple"
+msgstr "紫色"
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr "粉色"
+
+#: styles/orange.json
+msgctxt "Style variation name"
+msgid "Orange"
+msgstr "橙色"
+
+#: styles/neutral.json
+msgctxt "Style variation name"
+msgid "Neutral"
+msgstr "中性色"
+
+#: styles/lime.json
+msgctxt "Style variation name"
+msgid "Lime"
+msgstr "青柠色"
+
+#: styles/indigo.json
+msgctxt "Style variation name"
+msgid "Indigo"
+msgstr "靛青色"
+
+#: styles/green.json
+msgctxt "Style variation name"
+msgid "Green"
+msgstr "绿色"
+
+#: styles/gray.json
+msgctxt "Style variation name"
+msgid "Gray"
+msgstr "灰色"
+
+#: styles/fuchsia.json
+msgctxt "Style variation name"
+msgid "Fuchsia"
+msgstr "紫红色"
+
+#: styles/emerald.json
+msgctxt "Style variation name"
+msgid "Emerald"
+msgstr "翡翠色"
+
+#: styles/cyan.json
+msgctxt "Style variation name"
+msgid "Cyan"
+msgstr "蓝绿色"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Gradient name"
+msgid "Grid"
+msgstr "网格"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Gradient name"
+msgid "Checkerboard"
+msgstr "棋盘格"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Gradient name"
+msgid "Transparent/Background"
+msgstr "透明到背景色"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Gradient name"
+msgid "Background/Transparent"
+msgstr "背景色到透明"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Gradient name"
+msgid "Primary Invert"
+msgstr "主色到反转"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Gradient name"
+msgid "Primary"
+msgstr "主色"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Inherit"
+msgstr "继承"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Current"
+msgstr "当前色"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Transparent"
+msgstr "透明"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 0"
+msgstr "中性 / 0"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 200"
+msgstr "中性 / 200"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 400"
+msgstr "中性 / 400"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 600"
+msgstr "中性 / 600"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 800"
+msgstr "中性 / 800"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Neutral / 950"
+msgstr "中性 / 950"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "主色"
+
+#: theme.json styles/amber.json styles/cyan.json styles/emerald.json
+#: styles/fuchsia.json styles/gray.json styles/green.json styles/indigo.json
+#: styles/lime.json styles/neutral.json styles/orange.json styles/pink.json
+#: styles/purple.json styles/red.json styles/rose.json styles/sky.json
+#: styles/teal.json styles/violet.json styles/yellow.json
+msgctxt "Color name"
+msgid "Primary / Active"
+msgstr "主色 / 活跃"
+
+#: styles/amber.json
+msgctxt "Style variation name"
+msgid "Amber"
+msgstr "琥珀色"
+
+#: src/Services/ThemeServiceProvider.php:65
+msgid "Checklist"
+msgstr "清单"
+
+#: src/Services/ThemeServiceProvider.php:61
+msgid "None"
+msgstr "无"
+
+#: src/Services/ThemeServiceProvider.php:55
+msgid "Ghost"
+msgstr "幽灵"
+
+#: src/Services/ThemeServiceProvider.php:51
+msgid "Waves"
+msgstr "波浪"
+
+#: src/Services/ThemeServiceProvider.php:47
+msgid "Dashed"
+msgstr "虚线"
+
+#: src/Services/DashboardServiceProvider.php:606
+msgid "More Modules"
+msgstr "更多模块"
+
+#: src/Services/DashboardServiceProvider.php:565
+msgid "Featured Plover Kit Modules"
+msgstr "特色 Plover Kit 模块"
+
+#: src/Services/DashboardServiceProvider.php:542
+msgid "Go To Site Editor"
+msgstr "前往站点编辑器"
+
+#: src/Services/DashboardServiceProvider.php:541
+msgid "Customize"
+msgstr "自定义"
+
+#: src/Services/DashboardServiceProvider.php:486
+msgid "Rate Us 5 Stars"
+msgstr "给我们评分"
+
+#: src/Services/DashboardServiceProvider.php:476
+#: src/Services/DashboardServiceProvider.php:588
+msgid "Documentation"
+msgstr "说明文档"
+
+#: src/Services/DashboardServiceProvider.php:471
+msgid "Homepage"
+msgstr "主页"
+
+#: src/Services/DashboardServiceProvider.php:448
+msgid "Create a Topic"
+msgstr "创建话题"
+
+#: src/Services/DashboardServiceProvider.php:443
+msgid "If you have any question about using this theme, feel free to create a new topic in the support forum."
+msgstr "如果您在使用本主题时遇到任何问题，请随时在支持论坛上创建新主题。"
+
+#: src/Services/DashboardServiceProvider.php:442
+#: src/Services/DashboardServiceProvider.php:481
+msgid "Support Forum"
+msgstr "支持论坛"
+
+#: src/Services/DashboardServiceProvider.php:418
+msgid "Upgrade"
+msgstr "升级"
+
+#: src/Services/DashboardServiceProvider.php:411
+msgid "Upgrade to Premium"
+msgstr "升级到高级版"
+
+#: src/Services/DashboardServiceProvider.php:405
+#: src/Services/DashboardServiceProvider.php:593
+msgid "Install & Active"
+msgstr "安装并激活"
+
+#: src/Services/DashboardServiceProvider.php:399
+msgid "Install Plover Kit"
+msgstr "安装 Plover Kit"
+
+#: src/Services/DashboardServiceProvider.php:367
+msgid "Add icons to your design! 2000+ free icons available!"
+msgstr "为您的设计添加图标！提供 2000 多个免费图标！"
+
+#: src/Services/DashboardServiceProvider.php:361
+msgid "Icon library allows you to manage icon libraries and upload your custom svg icons."
+msgstr "图标库可让您管理图标库并上传自定义 svg 图标。"
+
+#: src/Services/DashboardServiceProvider.php:360
+msgid "Icon library"
+msgstr "图标库"
+
+#: src/Services/DashboardServiceProvider.php:295
+msgid "Insert code snippets to site header or footer section like Google Analytics code, AdSense Code, Facebook Pixels code, and more."
+msgstr "在网站页眉或页脚部分插入代码片段，如 Google Analytics 代码、AdSense 代码、Facebook Pixels 代码等。"
+
+#: src/Services/DashboardServiceProvider.php:294
+msgid "Code Snippets"
+msgstr "代码片段"
+
+#: src/Services/DashboardServiceProvider.php:289
+msgid "Introduce a Table of Contents block to your posts and pages."
+msgstr "在文章和页面中引入目录块。"
+
+#: src/Services/DashboardServiceProvider.php:288
+msgid "Table of Contents"
+msgstr "内容目录"
+
+#: src/Services/DashboardServiceProvider.php:277
+msgid "Add beautiful, ready-to-go layouts to your site with one click."
+msgstr "只需单击一下，即可在网站上添加精美的即用布局。"
+
+#: src/Services/DashboardServiceProvider.php:276
+msgid "Pattern library"
+msgstr "模版库"
+
+#: src/Services/DashboardServiceProvider.php:271
+msgid "Theme dark mode global settings."
+msgstr "主题暗色模式全局设置"
+
+#: src/Services/DashboardServiceProvider.php:262
+msgid "Add New Page"
+msgstr "添加新页面"
+
+#: src/Services/DashboardServiceProvider.php:257
+msgid "Change Site Title"
+msgstr "更改站点标题"
+
+#: src/Services/DashboardServiceProvider.php:252
+msgid "Edit Footer"
+msgstr "编辑页脚"
+
+#: src/Services/DashboardServiceProvider.php:247
+msgid "Edit Site Header"
+msgstr "编辑站点头部"
+
+#: src/Services/DashboardServiceProvider.php:242
+msgid "Edit Styles"
+msgstr "编辑样式"
+
+#: src/Services/DashboardServiceProvider.php:237
+msgid "Site Logo"
+msgstr "站点 Logo"
+
+#: src/Services/DashboardServiceProvider.php:232
+msgid "Edit Menu"
+msgstr "编辑菜单"
+
+#: src/Services/DashboardServiceProvider.php:227
+msgid "Edit Home Page"
+msgstr "编辑主页"
+
+#: src/Services/DashboardServiceProvider.php:178
+msgid "Dismiss"
+msgstr "忽略"
+
+#: src/Services/DashboardServiceProvider.php:173
+msgid "Install & Activate"
+msgstr "安装并激活"
+
+#: src/Services/DashboardServiceProvider.php:169
+msgid "Learn More"
+msgstr "了解更多"
+
+#: src/Services/DashboardServiceProvider.php:162
+#: src/Services/DashboardServiceProvider.php:400
+msgid "Plover Kit has pluggable modules that enhance the Gutenberg core blocks and provide extended features. It also has a weekly growing pattern library to make your website design fly."
+msgstr "Plover Kit 具有可插拔模块，可增强 Gutenberg 核心模块并提供扩展功能。它还拥有一个每周不断增长的模版库，让您的网站设计飞速发展。"
+
+#. Translators: %s Name of current theme name
+#: src/Services/DashboardServiceProvider.php:156
+msgid "Explore the full potential of WordPress with %s and Plover Kit"
+msgstr "利用 %s 和 Plover Kit 发掘 WordPress 的全部潜力"
+
+#: src/Services/DashboardServiceProvider.php:151
+msgid "Welcome"
+msgstr "欢迎！"
+
+#: src/Services/DashboardServiceProvider.php:77
+msgid "Plover Kit"
+msgstr "Plover Kit"
+
+#: src/Services/DashboardServiceProvider.php:66
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr "抱歉，您不能在在此站点上启用插件。"
+
+#: src/Services/DashboardServiceProvider.php:65
+msgid "You need a higher level of permission."
+msgstr "您需要更高级别的权限。"
+
+#: src/Extensions/DarkMode.php:83
+msgid "30 Days"
+msgstr "30 天"
+
+#: src/Extensions/DarkMode.php:82
+msgid "7 Day"
+msgstr "7 天"
+
+#: src/Extensions/DarkMode.php:81
+msgid "1 Day"
+msgstr "1 天"
+
+#: src/Extensions/DarkMode.php:80
+msgid "Session"
+msgstr "会话"
+
+#: src/Extensions/DarkMode.php:75
+msgid "The expiration date for visitors to switch color modes, default is session which means expires when browser is closed."
+msgstr "访客切换颜色模式的有效期，默认为会话，即浏览器关闭时失效。"
+
+#: src/Extensions/DarkMode.php:74
+msgid "Cookie period"
+msgstr "Cookie 有效期"
+
+#: src/Extensions/DarkMode.php:69 src/Services/ThemeServiceProvider.php:95
+#: assets/js/block-editor-sidebar/index.js:440
+msgid "Light"
+msgstr "亮色"
+
+#: src/Extensions/DarkMode.php:68 src/Services/ThemeServiceProvider.php:91
+#: assets/js/block-editor-sidebar/index.js:437
+msgid "Dark"
+msgstr "暗色"
+
+#: src/Extensions/DarkMode.php:67 assets/js/block-editor-sidebar/index.js:434
+msgid "System"
+msgstr "系统"
+
+#: src/Extensions/DarkMode.php:62
+msgid "Default color mode"
+msgstr "默认颜色模式"
+
+#: src/Extensions/DarkMode.php:57
+msgid "Adds dark mode support to the theme."
+msgstr "为主题添加暗色模式支持。"
+
+#: src/Extensions/DarkMode.php:56 src/Services/DashboardServiceProvider.php:270
+msgid "Dark Mode"
+msgstr "暗色模式"
+
+#: patterns/right-media-and-text.php:53
+msgid "All-in-one extensions"
+msgstr "多合一扩展"
+
+#: patterns/right-media-and-text.php:49
+msgid "Flexible page builder"
+msgstr "灵活的页面构建器"
+
+#: patterns/right-media-and-text.php:45
+msgid "Pixel-perfect design pattern library"
+msgstr "像素完美的设计模板库"
+
+#: patterns/right-media-and-text.php:36
+msgid "What makes us sparkle"
+msgstr "是什么让我们熠熠生辉"
+
+#: patterns/right-media-and-text.php:30
+msgid "exclusive"
+msgstr "独家"
+
+#: patterns/right-media-and-text.php
+msgctxt "Pattern title"
+msgid "Right media and text"
+msgstr "右边媒体和文本"
+
+#: patterns/posts-list.php
+msgctxt "Pattern title"
+msgid "List of posts, 1 columns"
+msgstr "文章列表，1 栏"
+
+#: patterns/posts-grid-3-col.php
+msgctxt "Pattern title"
+msgid "Grid of posts, 3 columns"
+msgstr "文章网格，3 栏"
+
+#: patterns/posts-grid-2-col.php
+msgctxt "Pattern title"
+msgid "Grid of posts, 2 columns"
+msgstr "文章网格，2 栏"
+
+#: patterns/left-media-and-text.php:50 patterns/right-media-and-text.php:61
+msgid "Get Started"
+msgstr "立即开始"
+
+#: patterns/left-media-and-text.php:36
+msgid "We solve web design problems efficiently"
+msgstr "我们高效的解决网页设计问题"
+
+#: patterns/left-media-and-text.php:30
+msgid "Service"
+msgstr "服务"
+
+#: patterns/left-media-and-text.php
+msgctxt "Pattern title"
+msgid "Left media and text"
+msgstr "媒体和文字"
+
+#: patterns/hidden-inherit-posts-grid-3-col.php:14
+#: patterns/latest-3-posts.php:24 patterns/posts-grid-2-col.php:16
+#: patterns/posts-grid-3-col.php:15 patterns/posts-list-left-image.php:15
+#: patterns/posts-list.php:14
+msgid "No posts were found."
+msgstr "没有找到文章"
+
+#: patterns/latest-3-posts.php
+msgctxt "Pattern title"
+msgid "Latest 3 posts"
+msgstr "最新 3 篇文章"
+
+#: patterns/hidden-sidebar.php:41 patterns/latest-3-posts.php:14
+msgid "Latest Posts"
+msgstr "最新文章"
+
+#: patterns/hidden-sidebar.php:28
+msgid "Popular Categories"
+msgstr "热门分类"
+
+#: patterns/hidden-sidebar.php:19
+msgid "Search..."
+msgstr "搜索..."
+
+#: patterns/hidden-sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: patterns/hidden-search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr "搜索"
+
+#: patterns/hidden-post-navigation.php
+msgctxt "Pattern title"
+msgid "Post navigation"
+msgstr "文章导航"
+
+#: patterns/hidden-post-meta.php
+msgctxt "Pattern title"
+msgid "Post meta"
+msgstr "文章元数据"
+
+#: patterns/hidden-post-meta-simpler.php
+msgctxt "Pattern title"
+msgid "Post meta simpler"
+msgstr "文章元数据简易版"
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr "评论"
+
+#: patterns/header-transparent.php
+msgctxt "Pattern title"
+msgid "Transparent Header"
+msgstr "透明头部"
+
+#: patterns/header-light.php
+msgctxt "Pattern title"
+msgid "Light Header"
+msgstr "亮色头部"
+
+#: patterns/header-dark.php:42 patterns/header-light.php:42
+#: patterns/header-transparent.php:42
+msgid "Sign Up"
+msgstr "注册"
+
+#: patterns/header-dark.php:36 patterns/header-light.php:36
+#: patterns/header-transparent.php:36
+msgid "Log In"
+msgstr "登录"
+
+#: patterns/header-dark.php
+msgctxt "Pattern title"
+msgid "Dark Header"
+msgstr "暗色头部"
+
+#: patterns/footer-light.php
+msgctxt "Pattern title"
+msgid "Light Footer, 4 columns"
+msgstr "亮色页脚，4 栏"
+
+#. Translators: To Top link.
+#: patterns/footer-dark.php:142 patterns/footer-light.php:140
+msgid "Top ↑"
+msgstr "返回顶部 ↑"
+
+#. Translators: Designed by WP Plover
+#: patterns/footer-dark.php:131 patterns/footer-light.php:129
+msgid "Designed by %1$s"
+msgstr "由 %1$s 设计"
+
+#. Translators: Theme Author link.
+#: patterns/footer-dark.php:128 patterns/footer-light.php:126
+msgid "https://wpplover.com/"
+msgstr "https://wpplover.com/"
+
+#: patterns/footer-dark.php:113 patterns/footer-light.php:111
+msgid "Twitter/X"
+msgstr "Twitter/X"
+
+#: patterns/footer-dark.php:111 patterns/footer-light.php:109
+msgid "Instagram"
+msgstr "Instagram"
+
+#: patterns/footer-dark.php:109 patterns/footer-light.php:107
+msgid "Facebook"
+msgstr "Facebook"
+
+#: patterns/footer-dark.php:102 patterns/footer-light.php:100
+msgid "Social"
+msgstr "社交网络"
+
+#: patterns/footer-dark.php:91 patterns/footer-light.php:90
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: patterns/footer-dark.php:89 patterns/footer-light.php:88
+msgid "Terms and Conditions"
+msgstr "条款"
+
+#: patterns/footer-dark.php:87 patterns/footer-light.php:86
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: patterns/footer-dark.php:80 patterns/footer-light.php:79
+msgid "Privacy"
+msgstr "隐私"
+
+#: patterns/footer-dark.php:70 patterns/footer-light.php:69
+msgid "Careers"
+msgstr "职业"
+
+#: patterns/footer-dark.php:68 patterns/footer-light.php:67
+msgid "History"
+msgstr "历史"
+
+#: patterns/footer-dark.php:66 patterns/footer-light.php:65
+msgid "Team"
+msgstr "团队"
+
+#: patterns/footer-dark.php:59 patterns/footer-light.php:58
+msgid "About"
+msgstr "关于"
+
+#: patterns/footer-dark.php
+msgctxt "Pattern title"
+msgid "Dark Footer, 4 columns"
+msgstr "暗色页脚，4 栏"
+
+#: patterns/features-with-icon-4-col.php:94
+msgid "Portfolio"
+msgstr "作品集"
+
+#: patterns/features-with-icon-4-col.php:70
+msgid "Blogging"
+msgstr "博客"
+
+#: patterns/features-with-icon-4-col.php:47
+msgid "Storefront"
+msgstr "店面"
+
+#: patterns/features-with-icon-4-col.php:30
+#: patterns/features-with-icon-4-col.php:53
+#: patterns/features-with-icon-4-col.php:76
+#: patterns/features-with-icon-4-col.php:100
+msgctxt "Dummy text"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing."
+
+#: patterns/features-with-icon-4-col.php:24
+msgid "Business"
+msgstr "商业"
+
+#: patterns/features-with-icon-4-col.php
+msgctxt "Pattern title"
+msgid "Features with icon, 4 col"
+msgstr "带图标的功能，4 列"
+
+#: patterns/featured-projects.php:90
+msgid "WordPress Plugins"
+msgstr "WordPress插件"
+
+#: patterns/featured-projects.php:68
+msgid "WordPress Themes"
+msgstr "WordPress 主题"
+
+#: patterns/featured-projects.php:52 patterns/featured-projects.php:74
+#: patterns/featured-projects.php:96
+msgctxt "Dummy text"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+
+#: patterns/featured-projects.php:46
+msgid "Website Design"
+msgstr "网站设计"
+
+#: patterns/featured-projects.php:22
+msgid "Featured Projects"
+msgstr "特色项目"
+
+#: patterns/featured-projects.php:16
+msgid "What we do"
+msgstr "我们的业务"
+
+#: patterns/featured-projects.php
+msgctxt "Pattern title"
+msgid "Featured Projects, 3 col"
+msgstr "特色项目，3 列"
+
+#: patterns/faq.php:42 patterns/faq.php:52 patterns/faq.php:62
+#: patterns/faq.php:75 patterns/faq.php:85 patterns/faq.php:95
+msgctxt "Dummy faq details"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+
+#: patterns/faq.php:40 patterns/faq.php:50 patterns/faq.php:60
+#: patterns/faq.php:73 patterns/faq.php:83 patterns/faq.php:93
+msgctxt "Dummy faq summary"
+msgid "Lorem ipsum dolor sit amet consect?"
+msgstr "Lorem ipsum dolor sit amet consect?"
+
+#: patterns/faq.php:22
+msgid "Frequently Asked Questions"
+msgstr "常见问题解答"
+
+#: patterns/faq.php:16
+msgid "faq"
+msgstr "faq"
+
+#: patterns/faq.php
+msgctxt "Pattern title"
+msgid "Frequently Asked Questions"
+msgstr "常见问题解答"
+
+#: patterns/dark-testimonials-4-col.php:96
+msgctxt "Dummy customer name"
+msgid "Harper Conner"
+msgstr "Harper Conner"
+
+#: patterns/dark-testimonials-4-col.php:74
+msgctxt "Dummy customer name"
+msgid "Lois Pope"
+msgstr "Lois Pope"
+
+#: patterns/dark-testimonials-4-col.php:52
+msgctxt "Dummy customer name"
+msgid "Harry Read"
+msgstr "Harry Read"
+
+#: patterns/dark-testimonials-4-col.php:46
+#: patterns/dark-testimonials-4-col.php:68
+#: patterns/dark-testimonials-4-col.php:90
+msgctxt "Dummy text"
+msgid "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+msgstr "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+
+#: patterns/dark-testimonials-4-col.php:28 patterns/faq.php:29
+#: patterns/featured-projects.php:29 patterns/left-media-and-text.php:43
+msgctxt "Dummy text"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#: patterns/dark-testimonials-4-col.php:22
+msgid "What out customers says"
+msgstr "客户的评论"
+
+#: patterns/dark-testimonials-4-col.php:16
+msgid "Testimonials"
+msgstr "褒奖"
+
+#: patterns/dark-testimonials-4-col.php
+msgctxt "Pattern title"
+msgid "Dark Testimonials, 4 columns"
+msgstr "暗色好评，4 栏"
+
+#: patterns/dark-mode-toggle.php
+msgctxt "Pattern title"
+msgid "Dark Mode Toggle"
+msgstr "暗色色模式切换"
+
+#: patterns/big-hero-header-dark.php:27 patterns/big-hero-header.php:26
+msgid "Get Started Today"
+msgstr "立即开始"
+
+#: patterns/big-hero-header-dark.php:19 patterns/big-hero-header.php:19
+msgid "Create Beautiful and Awesome website Today"
+msgstr "立即创建美观大方的网站"
+
+#: patterns/404.php:25 patterns/footer-dark.php:32 patterns/footer-light.php:31
+#: patterns/hidden-search.php:9 patterns/hidden-sidebar.php:15
+msgid "Search this site"
+msgstr "搜索本站点"
+
+#: patterns/404.php:25 patterns/hidden-search.php:9
+#: patterns/hidden-sidebar.php:19
+msgid "Search"
+msgstr "搜索"
+
+#: patterns/404.php:21
+msgid "The page you are looking for does not exist, or it has been moved. Please try searching using the form below."
+msgstr "您要查找的页面不存在，或已被移动。请尝试使用下面的表单进行搜索。"
+
+#: patterns/404.php:15
+msgid "Page Not Found"
+msgstr "找不到页面"
+
+#: core/src/Toolkits/Plugin.php:114
+msgid "Return To Theme Page"
+msgstr "返回主题页面"
+
+#: core/src/Toolkits/Plugin.php:112
+msgid "All Done!"
+msgstr "搞定！"
+
+#: core/src/Toolkits/Plugin.php:104
+msgid "Could not install the %s plugin."
+msgstr "无法安装 %s 插件。"
+
+#: core/src/Toolkits/Plugin.php:100
+msgid "%s installed successfully"
+msgstr "%s 已成功安装。"
+
+#: core/src/Toolkits/Plugin.php:83
+msgid "Upgrading %s ..."
+msgstr "正在升级 %s ..."
+
+#: core/src/Toolkits/Plugin.php:89
+msgid "Installing %s ..."
+msgstr "正在安装 %s …"
+
+#: core/src/Toolkits/Plugin.php:96
+msgid "Activating %s ..."
+msgstr "正在激活 %s …"
+
+#: core/src/Toolkits/Plugin.php:72
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "安装过程即将开始。这个过程可能会持续一段时间，请保持耐心。"
+
+#: core/src/Services/Settings/Modules.php:67
+msgid "Block Extensions"
+msgstr "块扩展"
+
+#: core/src/Services/Settings/Modules.php:64
+msgid "Blocks or block variations provided by this plugin."
+msgstr "本插件提供的区块或区块变体。"
+
+#: core/src/Services/Settings/Modules.php:63
+msgid "Blocks"
+msgstr "区块"
+
+#: core/src/Services/Settings/Modules.php:46
+msgid "Modules"
+msgstr "模块"
+
+#: core/src/Services/Settings/Modules.php:52
+msgid "Extensions provided by the active theme."
+msgstr "活动主题提供的扩展。"
+
+#: core/src/Services/Settings/Modules.php:51
+msgid "Theme"
+msgstr "主题"
+
+#: core/src/Services/Blocks/BlocksServiceProvider.php:100
+msgid "Plover Blocks"
+msgstr "Plover 区块"
+
+#: core/src/Services/Blocks/BlocksServiceProvider.php:104
+msgid "Plover WooCommerce Blocks"
+msgstr "Plover WooCommerce 区块"
+
+#: core/src/Router/Auth.php:19 core/src/Router/Auth.php:35
+msgid "Forbidden"
+msgstr "禁止"
+
+#: core/src/Extensions/Sticky.php:21
+#: src/Services/DashboardServiceProvider.php:385
+msgid "Make your content in the page visible at all times, making it permanently visible while scrolling."
+msgstr "让您中的内容在页面始终可见，使其在滚动时永久可见。"
+
+#: core/src/Extensions/Sticky.php:20
+#: src/Services/DashboardServiceProvider.php:384
+msgid "Block Sticky"
+msgstr "粘性块"
+
+#: core/src/Extensions/Shadow.php:36
+#: src/Services/DashboardServiceProvider.php:391
+msgid "Extra text-shadow, drop-shadow, and box-shadow support for core blocks."
+msgstr "为核心块提供额外的文字阴影、下拉阴影和方框阴影支持。"
+
+#: core/src/Extensions/Shadow.php:35
+#: src/Services/DashboardServiceProvider.php:390
+msgid "Block shadow"
+msgstr "块阴影"
+
+#: core/src/Extensions/Icon.php:501
+msgid "No such icon library."
+msgstr "没有该图标库。"
+
+#: core/src/Extensions/Icon.php:279
+msgid "download"
+msgstr "下载"
+
+#: core/src/Extensions/Icon.php:273
+msgid "download-cloud"
+msgstr "下载云"
+
+#: core/src/Extensions/Icon.php:267
+msgid "shopping-cart"
+msgstr "购物车"
+
+#: core/src/Extensions/Icon.php:261
+msgid "plus"
+msgstr "加号"
+
+#: core/src/Extensions/Icon.php:255
+msgid "map-pin"
+msgstr "图钉"
+
+#: core/src/Extensions/Icon.php:249
+msgid "help-circle"
+msgstr "帮助圆圈"
+
+#: core/src/Extensions/Icon.php:213
+msgid "check"
+msgstr "对号"
+
+#: core/src/Extensions/Icon.php:207
+msgid "check-square"
+msgstr "对号-正方形"
+
+#: core/src/Extensions/Icon.php:219
+msgid "chevron-down"
+msgstr "v形-向下"
+
+#: core/src/Extensions/Icon.php:225
+msgid "chevron-left"
+msgstr "v形-向左"
+
+#: core/src/Extensions/Icon.php:231
+msgid "chevron-right"
+msgstr "v形-向右"
+
+#: core/src/Extensions/Icon.php:237
+msgid "chevron-up"
+msgstr "v形-向上"
+
+#: core/src/Extensions/Icon.php:195
+msgid "alert-triangle"
+msgstr "警报-三角形"
+
+#: core/src/Extensions/Icon.php:189
+msgid "alert-circle"
+msgstr "警报-圆形"
+
+#: core/src/Extensions/Icon.php:183
+msgid "arrow-up"
+msgstr "箭头-向上"
+
+#: core/src/Extensions/Icon.php:177
+msgid "arrow-up-right"
+msgstr "箭头-右上"
+
+#: core/src/Extensions/Icon.php:171
+msgid "arrow-up-left"
+msgstr "箭头-左上"
+
+#: core/src/Extensions/Icon.php:165
+msgid "arrow-right"
+msgstr "箭头-向右"
+
+#: core/src/Extensions/Icon.php:159
+msgid "arrow-left"
+msgstr "箭头-向左"
+
+#: core/src/Extensions/Icon.php:153
+msgid "arrow-down"
+msgstr "箭头-向下"
+
+#: core/src/Extensions/Icon.php:147
+msgid "arrow-down-right"
+msgstr "箭头-右下"
+
+#: core/src/Extensions/Icon.php:141
+msgid "arrow-down-left"
+msgstr "箭头-左下"
+
+#: core/src/Extensions/Icon.php:135
+msgid "search"
+msgstr "搜索"
+
+#: core/src/Extensions/Icon.php:129
+msgid "sun"
+msgstr "太阳"
+
+#: core/src/Extensions/Icon.php:123
+msgid "moon"
+msgstr "月亮"
+
+#: core/src/Extensions/Icon.php:117
+msgid "star-solid"
+msgstr "星星-纯色"
+
+#: core/src/Extensions/Icon.php:111
+msgid "star"
+msgstr "星星"
+
+#: core/src/Extensions/Icon.php:47
+msgid "Introduce an Icon block that allows you to add icons to your design! 2000+ free icons available!"
+msgstr "引入图标块，让您可以在设计中添加图标！提供 2000 多个免费图标！"
+
+#: core/src/Extensions/Icon.php:46
+#: src/Services/DashboardServiceProvider.php:366
+msgid "Icon Block"
+msgstr "图标块"
+
+#: core/src/Extensions/Icon.php:39
+msgid "Add icon to boring buttons! 2000+ free icons available!"
+msgstr "为无聊的按钮添加图标！提供 2000 多个免费图标！"
+
+#: core/src/Extensions/Icon.php:38
+msgid "Icon Button"
+msgstr "图标按钮"
+
+#: core/src/Extensions/Highlight.php:66
+msgid "Default language"
+msgstr "默认语言"
+
+#: core/src/Extensions/Highlight.php:58
+msgid "Default theme"
+msgstr "默认主题"
+
+#: core/src/Extensions/Highlight.php:52
+msgid "Yes"
+msgstr "是"
+
+#: core/src/Extensions/Highlight.php:53
+msgid "No"
+msgstr "否"
+
+#: core/src/Extensions/Highlight.php:47
+msgid "Enabled by default"
+msgstr "默认启用"
+
+#: core/src/Extensions/Highlight.php:41
+#: src/Services/DashboardServiceProvider.php:373
+msgid "Add out-of-the-box code highlighting features for core/code block."
+msgstr "为核心代码块添加开箱即用的代码高亮功能。"
+
+#: core/src/Extensions/Highlight.php:40
+#: src/Services/DashboardServiceProvider.php:372
+msgid "Code highlight"
+msgstr "代码高亮"
+
+#: core/src/Extensions/EventHandler.php:62
+msgid "on mouse over event"
+msgstr "鼠标悬停事件"
+
+#: core/src/Extensions/EventHandler.php:61
+msgid "on db click event"
+msgstr "双击事件"
+
+#: core/src/Extensions/EventHandler.php:60
+msgid "on click event"
+msgstr "点击事件"
+
+#: core/src/Extensions/EventHandler.php:41
+msgid "Allowed events"
+msgstr "允许的事件类型"
+
+#: core/src/Extensions/EventHandler.php:30
+msgid "Only users who are granted the allowed roles can add event handlers."
+msgstr "只有被授予允许角色的用户才能添加事件处理程序。"
+
+#: core/src/Extensions/EventHandler.php:29
+msgid "Allowed roles"
+msgstr "允许的角色"
+
+#: core/src/Extensions/EventHandler.php:23
+#: src/Services/DashboardServiceProvider.php:379
+msgid "Adding event handler to blocks to execute custom JavaScript snippets."
+msgstr "为区块添加事件处理程序，以执行自定义 JavaScript 片段。"
+
+#: core/src/Extensions/EventHandler.php:22
+#: src/Services/DashboardServiceProvider.php:378
+msgid "Block event handler"
+msgstr "区块事件处理程序"
+
+#: core/src/Blocks/Code.php:26
+msgid "No Wrap"
+msgstr "不换行"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fira Code"
+msgstr "Fira Code"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Cardo"
+msgstr "Cardo"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: theme.json
+msgctxt "Style variation name"
+msgid "Plover"
+msgstr "Plover"
+
+#: src/Services/ThemeServiceProvider.php:73
+msgid "Check Solid"
+msgstr "检查纯色"
+
+#: src/Services/ThemeServiceProvider.php:69
+msgid "Check Circle"
+msgstr "检查圆型"
+
+#: src/Services/ThemeServiceProvider.php:77
+msgid "Check Ghost"
+msgstr "检查幽灵"
+
+#: core/src/Extensions/Icon.php:243
+msgid "heart"
+msgstr "心形"
+
+#: core/src/Extensions/Icon.php:201
+msgid "check-circle"
+msgstr "对号-圆型"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Plover: Transparent Header"
+msgstr "Plover: 透明头部"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wpplover.com"
+msgstr "https://wpplover.com"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "WP Plover"
+msgstr "WP Plover"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wpplover.com/themes/plover/"
+msgstr "https://wpplover.com/themes/plover/"
