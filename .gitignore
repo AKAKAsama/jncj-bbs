@@ -1,0 +1,31 @@
+# ==============================================
+# 江南财经大学校园论坛 专属 .gitignore
+# 自动过滤敏感文件，无需手动操作
+# ==============================================
+
+# 🔴 绝对禁止上传的敏感配置文件（数据库密码、密钥）
+wp-config.php
+wp-config-sample.php
+wp-config.php.bak
+.env
+
+# 🟡 媒体文件、上传目录（体积大，不属于代码）
+/wp-content/uploads/
+/wp-content/ai1wm-backups/
+/wp-content/backup-db/
+
+# 🟢 缓存、升级、日志文件
+/wp-content/cache/
+/wp-content/upgrade/
+*.log
+debug.log
+error_log
+
+# 🟣 系统/IDE 自动生成的垃圾文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.tmp
+*.cache
